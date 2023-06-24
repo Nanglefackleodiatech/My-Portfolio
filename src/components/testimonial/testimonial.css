@@ -1,0 +1,122 @@
+.container.testimonials__container {
+    width: 650px;
+    padding-bottom: 3rem;
+}
+
+.client__avatar{
+    width:4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: .4rem solid var(--color-primary-variant);
+}
+
+.testimonial{
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    box-shadow: black;
+
+}
+#testimonial h2,#testimonial h5{
+    color: black;
+    font-size: large;
+}
+.client__review{
+    color: var(--color-light);
+    font-weight: 300;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+
+}
+
+@media only screen and (min-width: 639px) and (max-width: 1000px){
+
+  
+    .container.testimonials__container{
+        width: 650px;
+      margin-left:50px;
+      margin-right:50px;
+    
+    }
+
+.testimonial h5 span{
+    font-size:small
+}
+.testimonial p span{
+    font-size: small;
+}
+.testimonial  small{
+    font-size: medium;
+}
+}
+
+@media  screen and (max-width: 640px) {
+ 
+    .container.testimonials__container{
+        width: 430px;
+      margin-left:1px;
+      margin-right:2px;
+    
+    }
+
+.testimonial h5 span{
+    font-size:small
+}
+.testimonial p span{
+    font-size: small;
+}
+.testimonial  small{
+    font-size: small;
+}
+
+}
+
+#testify{
+    margin-bottom: 120px;
+    color:rgba(0, 0, 0,0.5);
+    width: 110px;
+    height: 50px;
+    background-color: rgb(77,181,255);
+    border-radius: 9px;
+    font-size: large;
+    transition-property: background-color;
+    transition-duration:0.5s ;
+    font-weight: bold;
+
+}
+
+#testify:hover{
+    background-color: white;
+}
+
+
+  
+@media only screen and (min-width: 995px) and (max-width: 1300px){
+
+  
+    .container.testimonials__container{
+        width: 650px;
+      margin-left:50px;
+      margin-right:50px;
+    
+    }
+
+.testimonial h5 span{
+    font-size:small
+}
+.testimonial p span{
+    font-size: small;
+}
+.testimonial  small{
+    font-size: medium;
+}
+}
+ 
